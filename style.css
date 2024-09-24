@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimg {
+    background-image: url("bg.png");
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+}
+
+.contents{
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    color: rgba(240, 255, 255, 0.448);
+    font-size: 14px;
+    height: auto;
+    font-weight: 100;
+}
+.contents p{
+    &:hover{
+        color: azure;
+        cursor: pointer;
+}}
+form{
+    background-color: rgb(16, 22, 29);
+}
+.searchbox svg{
+    fill: white;
+}
+.searchbox{
+    background: url(resources/icons8-search.svg) no-repeat 10px color(white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 35px;
+    width: 30vw;
+    /* display: flex; */
+    margin-top: -10px;
+    border: none;
+    border-radius: 3px;
+    color: rgba(240, 255, 255, 0.448);
+    background-color: rgb(16, 22, 29);
+    background: url('resources/icons8-search.svg') no-repeat scroll 7px 7px;
+        background-size: 20px 20px;
+        padding-left: 35px;
+}
+.searchbox::placeholder {
+    background-color: rgb(16, 22, 29);;
+    color: rgba(240, 255, 255, 0.448);
+}
+
+
+#sign_in{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 70px;
+    height: 35px;
+    border: none;
+    background-color: rgb(28,37, 47);
+    color: azure;
+    border-radius: 3px;
+    font-size: 14px;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(36,42,49);
+    }
+    margin-top: -8px;
+    margin-left: 0px;
+}
+.text_displayer{
+    position: relative;
+    margin-top: 10px;
+    padding-top: 60px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+}
+.welcome{
+    color: azure;
+    font-family: Lato, Lato-fallback, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+
+}
+h3{
+    padding-top: 40px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: light;
+    margin: auto;
+    text-align: center;
+    color: azure;
+}
+
+.t_buttons{
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.t_buttons button{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#discover{
+    background-color: rgb(251, 197, 0);
+    width: 300px;
+    height: 55px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;}
+
+#discover:hover{
+    cursor: pointer;
+    background-color: rgb(161, 127, 5);
+    color: aliceblue;
+}   
+#random{
+    width: 130px;
+    background-color: rgba(141, 139, 139, 0.13);
+    color: azure;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    &:hover{
+        background-color: rgba(245, 244, 244, 0.149);
+        cursor: pointer;
+    }
+}
+.icon{
+    margin: 0px;
+    padding: 0px;
+}
+
+.gradient{
+    /* width: 100%; */
+    height: 100%;
+    top: 1px;
+    /* background-image: linear-gradient(to bottom,#00000072,#000000); */
+    background-image: linear-gradient(180deg, transparent 0, #000000);
+}
+.services{
+    display: flex;
+    margin-top: -45px;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    color: grey;
+    font-size: 18px;
+}
+.appholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;}
+
+.appholder div{
+    &:hover{
+        cursor: pointer;
+    }
+}
+#amazon{
+    background-image: url("resources/prime.png");
+    background-size: cover;
+    background-position: center;
+}
+#netflix{
+    background-image: url("resources/netflix.jpg");
+    background-size: cover;
+    background-position: center;}
+#hotstar{
+    background-image: url("resources/hotstar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#mx{
+    background-image: url("resources/mxplayer.png");
+    background-size: cover;
+    background-position: center;
+}
+#sonyliv{
+    background-image: url("resources/sonyliv.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#hbo{
+    background-image: url("resources/hbo.png");
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+}
+#jio{
+    background-image: url("resources/jio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#apple{
+    background-image: url("resources/apple.png");
+    background-size: cover;
+    background-position: center;
+}
+#yt{
+    background-image: url("resources/yt.png");
+    background-size: cover;
+    background-position: center;
+}
+.apps{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+}
+.cardholder{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    /* align-items: top; */
+    /* justify-content: center; */
+
+    background-color: rgb(28,37, 47);;
+    height: 420px;
+    width: 350px;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, transparent 0, #000000);
+}
+#card1 img{
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 300px;
+    height: 200px;       
+}
+#card2 img{
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 300px;
+    height: 200px;       
+}
+#card3 img{
+    margin-top: 30px;
+    margin-left: 28px;
+    width: 300px;
+    height: 200px;       
+}
+
+.cardholder p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
